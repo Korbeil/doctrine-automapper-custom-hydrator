@@ -1,0 +1,21 @@
+{
+    "name": "korbeil/doctrine-automapper-hydrator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Baptiste Leduc",
+            "email": "baptiste.leduc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "doctrine/orm": "^3.1",
+        "jolicode/automapper": "^9.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Korbeil\\DoctrineAutomapperHydrator\\": "src/"
+        }
+    }
+}
